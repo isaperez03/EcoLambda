@@ -93,7 +93,7 @@ Durante el desarrollo se realizaron las siguientes actividades:
 
 | Inicio de sesión | Crear cuenta |
 |------------------|--------------|
-| ![](screenshots/login.png) | ![](screenshots/register_account.png) |
+| ![](Screenshots/login.png) | ![](Screenshots/register_account.png) |
 
 ---
 
@@ -101,31 +101,31 @@ Durante el desarrollo se realizaron las siguientes actividades:
 
 ### Menú principal
 
-![](screenshots/main_menu.png)
+![](Screenshots/main_menu.png)
 
 ### Clasificación de residuos
 
-![](screenshots/classify_waste.png)
+![](Screenshots/classify_waste.png)
 
 ### Resultado del análisis
 
-![](screenshots/analysis_result.png)
+![](Screenshots/analysis_result.png)
 
 ### Aprende a reciclar
 
-![](screenshots/learn_recycling.png)
+![](Screenshots/learn_recycling.png)
 
 ### Información del residuo
 
-![](screenshots/waste_information.png)
+![](Screenshots/waste_information.png)
 
 ### Historial
 
-![](screenshots/analysis_history.png)
+![](Screenshots/analysis_history.png)
 
 ### Perfil del usuario
 
-![](screenshots/user_profile.png)
+![](Screenshots/user_profile.png)
 
 ---
 
@@ -133,37 +133,37 @@ Durante el desarrollo se realizaron las siguientes actividades:
 
 ## Android Studio
 
-![](screenshots/android_studio_development.png)
+![](Screenshots/android_studio_development.png)
 
 ---
 
 ## Modelo TensorFlow Lite
 
-![](screenshots/tensorflow_lite_model.png)
+![](Screenshots/tensorflow_lite_model.png)
 
 ---
 
 ## Script para eliminación de fondo
 
-![](screenshots/background_removal_script.png)
+![](Screenshots/background_removal_script.png)
 
 ---
 
 ## Organización del Dataset
 
-![](screenshots/dataset_structure.png)
+![](Screenshots/dataset_structure.png)
 
 ---
 
 ## Imágenes del Dataset
 
-![](screenshots/dataset_images.png)
+![](Screenshots/dataset_images.png)
 
 ---
 
 ## Código de entrenamiento del modelo
 
-![](screenshots/model_training_code.png)
+![](Screenshots/model_training_code.png)
 
 ---
 
@@ -171,13 +171,13 @@ Durante el desarrollo se realizaron las siguientes actividades:
 
 ## Authentication
 
-![](screenshots/firebase_authentication.png)
+![](Screenshots/firebase_authentication.png)
 
 ---
 
 ## Realtime Database
 
-![](screenshots/firebase_realtime_database.png)
+![](Screenshots/firebase_realtime_database.png)
 
 ---
 
