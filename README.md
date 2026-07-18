@@ -1,33 +1,21 @@
 # EcoLambda
 
-Aplicación móvil desarrollada con Kotlin, Jetpack Compose, Firebase y TensorFlow Lite para la clasificación inteligente de residuos mediante inteligencia artificial.
+Aplicación móvil para Android desarrollada con **Kotlin**, **Jetpack Compose**, **Firebase** y **TensorFlow Lite**, diseñada para clasificar residuos mediante Inteligencia Artificial y fomentar el reciclaje mediante información educativa.
 
 ---
 
-# Descripción
+# Características
 
-EcoLambda es una aplicación móvil desarrollada para facilitar la correcta separación de residuos mediante el uso de Inteligencia Artificial.
-
-La aplicación permite al usuario capturar o seleccionar una imagen de un residuo para identificar automáticamente su categoría utilizando un modelo de aprendizaje automático integrado con TensorFlow Lite.
-
-Además, incorpora un módulo educativo para fomentar el reciclaje, un historial de clasificaciones realizadas y almacenamiento de información mediante Firebase.
-
-Este proyecto fue desarrollado como parte de un trabajo académico enfocado en el desarrollo móvil, aprendizaje automático y sostenibilidad ambiental.
-
----
-
-# Características principales
-
-- Inicio de sesión mediante Firebase Authentication.
-- Registro de nuevos usuarios.
-- Clasificación automática de residuos utilizando Inteligencia Artificial.
+- Inicio de sesión y registro de usuarios.
+- Clasificación de residuos utilizando un modelo de Inteligencia Artificial.
 - Captura de fotografías desde la cámara.
 - Selección de imágenes desde la galería.
-- Historial de análisis realizados.
-- Información educativa sobre reciclaje.
-- Consulta de información detallada de cada tipo de residuo.
+- Historial de clasificaciones realizadas.
+- Recomendaciones automáticas para el reciclaje.
+- Información educativa sobre separación de residuos.
+- Integración con Firebase Authentication.
 - Integración con Firebase Realtime Database.
-- Modelo ejecutado localmente mediante TensorFlow Lite.
+- Modelo TensorFlow Lite entrenado con un dataset personalizado.
 
 ---
 
@@ -35,55 +23,26 @@ Este proyecto fue desarrollado como parte de un trabajo académico enfocado en e
 
 - Kotlin
 - Jetpack Compose
-- Android Studio
 - Firebase Authentication
 - Firebase Realtime Database
 - TensorFlow Lite
 - Python
-- TensorFlow
-- Machine Learning
-- Git
-- GitHub
+- Android Studio
 
 ---
 
-# Arquitectura del proyecto
+# Mi participación
 
-```
-EcoLambda
-│
-├── app
-│   ├── screens
-│   ├── navigation
-│   ├── repository
-│   ├── model
-│   ├── ui
-│   └── utils
-│
-├── scripts
-│   ├── eliminar_fondo_dataset.py
-│   └── modeloClasificadorBasura.py
-│
-├── assets
-│
-└── modelo TensorFlow Lite
-```
+Durante el desarrollo del proyecto participé en distintas etapas, entre ellas:
 
----
-
-# Inteligencia Artificial
-
-El sistema utiliza un modelo de Machine Learning entrenado para identificar distintas categorías de residuos.
-
-Durante el desarrollo se realizaron las siguientes actividades:
-
-- Preparación del dataset.
-- Organización de imágenes por categorías.
-- Eliminación automática del fondo de las imágenes.
+- Desarrollo de interfaces de usuario.
+- Implementación de funcionalidades de la aplicación.
+- Desarrollo del proceso de clasificación mediante IA.
+- Preparación y organización del dataset.
 - Entrenamiento del modelo utilizando TensorFlow.
-- Conversión del modelo a TensorFlow Lite.
-- Integración del modelo dentro de la aplicación Android.
-- Validación del modelo mediante pruebas de clasificación.
+- Integración del modelo TensorFlow Lite dentro de la aplicación.
+- Integración con Firebase Authentication y Realtime Database.
+- Pruebas y validación del funcionamiento general.
 
 ---
 
@@ -92,8 +51,8 @@ Durante el desarrollo se realizaron las siguientes actividades:
 ## Autenticación
 
 | Inicio de sesión | Crear cuenta |
-|------------------|--------------|
-| ![](Screenshots/login.png) | ![](Screenshots/register_account.png) |
+|-----------------|--------------|
+| ![](Screenshots/login.jpg) | ![](Screenshots/register_account.jpg) |
 
 ---
 
@@ -101,69 +60,83 @@ Durante el desarrollo se realizaron las siguientes actividades:
 
 ### Menú principal
 
-![](Screenshots/main_menu.png)
-
-### Clasificación de residuos
-
-![](Screenshots/classify_waste.png)
-
-### Resultado del análisis
-
-![](Screenshots/analysis_result.png)
-
-### Aprende a reciclar
-
-![](Screenshots/learn_recycling.png)
-
-### Información del residuo
-
-![](Screenshots/waste_information.png)
-
-### Historial
-
-![](Screenshots/analysis_history.png)
-
-### Perfil del usuario
-
-![](Screenshots/user_profile.png)
+![](Screenshots/main_menu.jpg)
 
 ---
 
-# Desarrollo del proyecto
+### Clasificar residuo
 
-## Android Studio
+![](Screenshots/classify_waste.jpg)
 
-![](Screenshots/android_studio_development.png)
+---
+
+### Resultado del análisis
+
+![](Screenshots/analysis_result.jpg)
+
+---
+
+### Historial
+
+![](Screenshots/analysis_history.jpg)
+
+---
+
+### Aprende a reciclar
+
+![](Screenshots/learn_recycling.jpg)
+
+---
+
+### Información de residuos
+
+![](Screenshots/waste_information.jpg)
+
+---
+
+### Perfil del usuario
+
+![](Screenshots/user_profile.jpg)
+
+---
+
+# Inteligencia Artificial
+
+## Código de entrenamiento
+
+![](Screenshots/model_training_code.jpg)
+
+---
+
+## Script para eliminar fondo
+
+![](Screenshots/background_removal_script.jpg)
+
+---
+
+## Estructura del dataset
+
+![](Screenshots/dataset_structure.jpg)
+
+---
+
+## Imágenes del dataset
+
+![](Screenshots/dataset_images.jpg)
 
 ---
 
 ## Modelo TensorFlow Lite
 
-![](Screenshots/tensorflow_lite_model.png)
+![](Screenshots/tensorflow_lite_model.jpg)
 
 ---
 
-## Script para eliminación de fondo
+# Desarrollo
 
-![](Screenshots/background_removal_script.png)
+## Android Studio
 
----
-
-## Organización del Dataset
-
-![](Screenshots/dataset_structure.png)
-
----
-
-## Imágenes del Dataset
-
-![](Screenshots/dataset_images.png)
-
----
-
-## Código de entrenamiento del modelo
-
-![](Screenshots/model_training_code.png)
+![](Screenshots/android_studio_development.jpg)
 
 ---
 
@@ -171,70 +144,34 @@ Durante el desarrollo se realizaron las siguientes actividades:
 
 ## Authentication
 
-![](Screenshots/firebase_authentication.png)
+![](Screenshots/firebase_authentication.jpg)
 
 ---
 
 ## Realtime Database
 
-![](Screenshots/firebase_realtime_database.png)
+![](Screenshots/firebase_realtime_database.jpg)
 
 ---
 
-# Instalación
+# Estructura del proyecto
 
-1. Clonar el repositorio.
-
-```bash
-git clone https://github.com/isaperez03/EcoLambda.git
 ```
-
-2. Abrir el proyecto con Android Studio.
-
-3. Configurar Firebase.
-
-4. Sincronizar Gradle.
-
-5. Ejecutar la aplicación.
-
----
-
-# Requisitos
-
-- Android Studio
-- Android SDK
-- Kotlin
-- Firebase
-- TensorFlow Lite
-- Python 3
-- JDK 17
-
----
-
-# Participación en el proyecto
-
-Proyecto desarrollado de manera colaborativa.
-
-Mi participación incluyó:
-
-- Desarrollo de funcionalidades de la aplicación móvil.
-- Implementación de interfaces utilizando Jetpack Compose.
-- Preparación y organización del dataset de imágenes.
-- Preprocesamiento de imágenes para entrenamiento.
-- Desarrollo e integración del modelo de Inteligencia Artificial.
-- Integración del modelo TensorFlow Lite dentro de la aplicación.
-- Implementación de funcionalidades utilizando Kotlin.
-- Integración con Firebase Authentication y Realtime Database.
-- Pruebas, validación y documentación del proyecto.
+EcoLambda/
+│
+├── app/
+├── gradle/
+├── Screenshots/
+├── modeloClasificadorBasura.py
+├── eliminar_fondo_dataset.py
+├── build.gradle.kts
+└── README.md
+```
 
 ---
 
 # Autor
 
-**Juana Isabel Pérez López**
+**Juana Isabel Perez Lopez**
 
-Ingeniería en Sistemas Computacionales
-
-Instituto Tecnológico Superior de Misantla
-
-2026
+Proyecto desarrollado como parte de la carrera de Ingeniería en Sistemas Computacionales.
